@@ -1,28 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="canonical" href="https://cishlgroup/index.html">
-<title>欢迎来到国智星历官网！( •̀ ω •́ )</title>
-<meta charset="utf-8">
-<meta name="keywords" content="国智星历,CISHL,一HeCat">
-<meta name="description" content="欢迎来到国智星历官网！( •̀ ω •́ )">
-<meta name="author" content="一HeCat">
-<link rel="Shortcut Icon" href="https://s21.ax1x.com/2025/07/21/pV8yUuF.md.png">
-<base href="https://cishlgroup/index.html">
-<style>
-li
-{
-color:white;
-}
-a:link {color:#95cbff;}
-a:visited {color:#95cbff;}
-a:hover {color:#00ffff;}
-a:active {color:#19325f;}a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:underline;}
-a:active {text-decoration:underline;}
-.button-tech{
+<html lang="zh-cn">
+    <head>
+        <title>了解更多</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <style>
+            .dql {
+                opacity: 0;
+                animation: fadeIn 0.8s ease 1 forwards;
+                animation-delay: 0.2s;
+                }
+
+            @keyframes fadeIn{
+            0%{
+            opacity: 0;
+            }
+            100%{
+            opacity: 1;
+            }
+            }
+
+            .div {
+                width: auto;
+                height: auto;
+            }
+
+            .lm{
+                background: linear-gradient(to top, #cccccc, #f1f1f1);
+                color: #00000f;
+                border-radius: 5px;
+            }
+
+            .footer {
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                }
+
+            .jntm {
+                background: linear-gradient(to top, #0000ff, #7777ff);
+                color: #ffffff;
+            }
+
+    .button-tech{
 	background: linear-gradient(to top, #000000, #000080);
 	border: none;
 	border-radius: 8px;
@@ -56,392 +76,201 @@ a:active {text-decoration:underline;}
 	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
 	transform: translaetY(-2px);
 }
-.card {
-      background: #0e72ff;
-	  backdrop-filter: blur(5px);
-	  border: 1px solid rgba(64, 128, 255, 0.3);
-	  color: #e0f2ff;
-      border-radius: 8px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* 柔和阴影 */
-    }
-  .blue-marquee {
-    display: block;
-    width: 100%;
-    padding: 15px 1px;
-    background: #0000ff;
-    color: #ffffff;
-    font-family: "Microsoft YaHei", sans-serif;
-    overflow: hidden;
-    position: relative;
-  }
-body{
-font-family: "Microsoft YaHei", sans-serif;
-background: #e6f2ff;
-color: #333;
-}
-           .header {  
-               background: url("https://s21.ax1x.com/2025/08/05/pVUUM90.png"); /* 随便 */  
-               padding: 50px;  
-               text-align: center;  
-           } 
-		   h1,p .header-title, .header-subtitle{
-		color: #003366;
-		text-shadow: 1px 1px 3px rgha(0, 0, 0, 0.8);
-		font-weight: normal;
-	}
-.footer{
-background: #000055;
-padding: 15px;
-text-align: center;
-color: white !important;
-margin-top: auto;
-}
-.content{
-padding: 20px;
-flex: 1px
-}
-.game{
-	background: #ffffff;
-	color: #000fff;
-}
-#commentForm button {
-    background: linear-gradient(135deg, #ff00ff 0%, #00ffff 100%);
-    border: none;
-    border-radius: 0;
-    padding: 12px 24px;
-    color: white;
-    font-family: 'Courier New', monospace;
-    font-weight: bold;
-    cursor: pointer;
-    
-    box-shadow: 
-        5px 5px 0 #000,
-        inset 0 0 10px rgba(255,255,255,0.5);
-    
-    transition: all 0.2s;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-#commentForm button:hover {
-    background: linear-gradient(135deg, #ff00ff 20%, #00ffff 80%);
-    box-shadow: 
-        2px 2px 0 #000,
-        inset 0 0 20px rgba(255,255,255,0.8);
-    top: 3px;
-    left: 3px;
+
+    .button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
 }
 
-#commentForm button:active {
-    box-shadow: none;
-    top: 5px;
-    left: 5px;
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
 }
 
-表格基础样式 */
-  .history-table {
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto; /* 居中 */
-    border-collapse: collapse; /* 消除单元格间隙 */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 柔和阴影 */
-    font-family: "Microsoft YaHei", sans-serif;
-  }
-  
-  /* 表头样式 */
-  .history-table th {
-    background: #0000FF; /* 与页眉同色 */
-    color: white;
-    padding: 12px;
-    text-align: left;
-  }
-  
-  /* 表格单元格 */
-  .history-table td {
-    padding: 10px 15px;
-    border-bottom: 1px solid #00aaaa; /* 细分割线 */
-  }
-  
-/* 隔行变色 */
-  .history-table tr:nth-child(even) {
-    background: #00aaff;
-  }
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
 
-  /* 鼠标悬停高亮 */
-  .history-table tr:hover {
-    background: #00bbff !important;
-  }
-  
-  /* 年份列特殊样式 */
-  .year-column {
-    font-weight: bold;
-    color: #fff;
-    width: 100px; /* 固定年份列宽度 */
-  }
-  
-  /* 统一样式 */
-  .photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin: 10px;
-    transform: translateX(-822px);
-    transition: transform 1.9s ease-out;
-  }
-  
-  /* 特殊尺寸图片单独设置 */
-  .photo.special {
-    width: 250px;
-    height: 135px; /* 高度不同 */
-    object-fit: contain; /* 保持比例（不裁剪） */
-  }
-  
-  /* 触发动画 */
-  body.loaded .photo {
-    transform: translateX(0);
-  }
-</style>
-</head>
-<body>
-<div class="header">
-	<div align="center">
-  <img class="photo" src="https://s21.ax1x.com/2025/08/07/pVUzgdx.png">
-  <img class="photo special" src="https://s21.ax1x.com/2025/08/08/pVadDaQ.png">
-  </div>
-  </div>
-       <!-- 已有，已经用上啦(〜￣▽￣)〜 -->
-<div style="
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(to top, #e6f2ff, #00ffff);
-"></div>
-<p>
-	</p><h2>欢迎来到国智星历的官网</h2><br>
-<h3>20250101-1075510</h3><br>
-<div align="center">
-<div>
-<ul>
-<li>近期事件</li>
-<li>暂无</li>
-</ul>
-</div>
-下面是国智星历最新动态
-<hr>
-<!-- 滚动字幕结构 -->
-<marquee class="blue-marquee" behavior="scroll" direction="left">
-  <span class="marquee-content">
-    国智星历集团近期暂无新闻</span>
-  
-</marquee>
-<!-- 带悬停暂停效果 -->
-<marquee class="grey-marguee" behavior="scroll" direction="left" scrollamount="7" onmouseover="this.stop()" onmouseout="this.start()">
-  国智星历中文简体版网站上线滚动字幕啦！快来看看最新內容吧！(≧∇≦)
-</marquee>
-<span class="emphasize">鸡你太美鸡你太美鸡你实在是太美</span>
-<hr>
-	在这里说一下我们的名字，以便能够更好的记住我们：<br> 
-    集团名称<bt>
-    中文简体：国智星历<br>
-    中文繁體：国智星历<br>
-    English:CISHL<br>
-    Bahasa Melayu:CISHL<br>
-    Tiếng Việt：CÍSHL<br>
-    我的OC名称<br>
-    中文简体：一和猫<br>
-    中文繁體：一和貓<br>
-    English:Yi He Cat<br>
-    Bahasa Melayu:Yi Hoa Kucing<br>
-    Tiếng Việt:Nghi Hòa Mèo<br>
-	Русский:Ихе кощка<br>
-（注意：“一”是一二三的一，所以“一和”本身只是个名字而已！(✽ﾟдﾟ✽)）
-    <hr>
-    网站好像没那么落后了吧？如果还有的话，请广大网友多多指正！
-当然，可以指点一下我的网站怎么做，只要渐变一些就行，一he！（我做得不好请原谅！o(╥﹏╥)o）<br>
-2022年8月22日成立的CISHL（国智星历），一直到现在，至今已有两年半历史（小黑子食不食油饼）<br>
-国智星历全名为广西壮族自治区国智星历绘制系列集团
-<hr>
-历史栏目<br>
-<div style="background-color: #00aaaa" ;="">
-<div class="header">
-<h1>国智星历大事年表</h1>
-</div>
-<!-- 表格HTML -->
-<div class="card">
-<table class="history-table">
-  <thead>
-    <tr>
-      <th>年份</th>
-      <th>事件</th>
-      <th>影响范围</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="year-column">2022.08.22.</td>
-      <td>国智星历集团成立</td>
-      <td>中国南宁</td>
-    </tr>
-    <tr>
-      <td class="year-column">2022.12.31</td>
-      <td>提出迈向国际计划，翌日，便建立国际组织</td>
-      <td>国内</td>
-</tr><tr>
-<td class="year-column">2023.3.1</td>
-      <td>为了高创绘画，建立了HSAT（High Science and Technology)高创工作室，此后不断升级</td>
-      <td>国内</td>
-    </tr>
-<tr><td class="year-column">2023.8.2</td>
-      <td>和马来西亚网友一块了</td>
-      <td>🇨🇳🇲🇾</td>
-    </tr>
-<tr><td class="year-column">2023.8.13</td>
-      <td>登录事件</td>
-      <td>🇨🇳🇹🇹🇲🇾</td>
-    </tr>
-    <tr>
-      <td class="year-column">2024.03.30.</td>
-      <td>大号正式回归</td>
-      <td>国内</td>
-    </tr>
-<tr>
-      <td class="year-column">2024.08.31.</td>
-      <td>注册Fandom</td>
-      <td>国际</td>
-    </tr>
-<tr>
-      <td class="year-column">2025.01.01.</td>
-      <td>迈向国际计划成功</td>
-      <td>国际</td>
-    </tr>
-  </tbody>
-</table>
-		<p>数据截止至2025年7月1日</p>
-		<p>仅供娱乐，部分信息需要辨别，我们会不断完善的</p>
-		
-</div>
-</div>
-<hr>
-含义在这<br>
-        关于国智星历的英文名称CISHL的解释：<br>
-        C:Countryball（国家球）<br>
-        I:AI（人工智能）<br>
-        S:<a href="http://srpn.top/?need_out_animation=right&amp;finish_when_network_unavailable=false&amp;bdx_monitor_append_params=%7B%22enter_from%22%3A%22im_safe_jump_to_web%22%7D&amp;from_im=true&amp;disable_auto_expose=1&amp;enable_webview_select_search=1&amp;font_scale=1.0">SRPN（星球閣）</a><br>
-        H:History（历史）<br>
-        L:(源于心理一词，理的首写字母)<br>
-<hr>
-计划栏目<br>
-国智星历搞计划在此网站上的展示：无<br>
-<hr>
-测试web<br>
-专门测试的网站：<a href="TheThreeBanNightRunVersion.html">在这</a><br>
-		你在这里看到的东西，说不定明天就会上线！ヾ(^▽^*)))<br>
-		<div class="game">
-<img src="https://s21.ax1x.com/2025/08/10/pVdSrGT.md.png" alt="ВаиЛиуИгра(ВЛИ)" width="300" height="200"><br>
-<strong>
-	这里有玩六游戏团队制作出来的游戏！粉丝收录的游戏也被玩六游戏团队收录了！<br>
-<a href=" "">别被三禁组织追上！</a ><br>
-作者：<a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys">国智星历</a ><br>
-<a href="xl.html">星历航天登陆月球，但是难度为亚洲级别</a ><br>
-作者：<a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys">国智星历</a ><br>
-<a href="https://xqdz.rth1.xyz/">星际追逐战</a ><br>
-作者：<a href="https://www.douyin.com/user/MS4wLjABAAAACPnSlbZjcVD0GQiYi6GK4V2M644dIro4eCNK0oMeUKQ?from_tab_name=main">Bai jiu·佰玖（可爱捏）</a ><br>
-</strong>
-<hr>
-<hr>
-音乐栏目<br>
-<a href="https://v.douyin.com/iBEggdNw/ foD:/ T@l.Cu 09/24 ">国智星历集团歌</a><br>
-<hr>
-不过，在你能够认真审视我们之前，请查看<a href="rules_Chinese.html">注意事项</a><br>
-<div class="card">
-<h2>国智星历集团の赛博画展</h2><br>
-国智星历集团の赛博画展正式开幕啦！<br>
-嘻嘻ο(=•ω＜=)ρ⌒☆<br>
-<img src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_oYTunZbIPzN1iAUiLABytgItoAgAcB73PoABE~c5_100x100.jpeg?from=2956013662"><br>
-这是我们在抖音上的头像<br>
-<img src="https://s21.ax1x.com/2025/07/19/pV3jEFI.png" alt="pV3jEFI.png" border="0" width="216" height="144"><br>
-《国智星历25年科技版图标》<br>
-<img src="https://s21.ax1x.com/2025/07/19/pV3jb1f.png" alt="pV3jb1f.png" border="0" width="200" height="300"><br>
-《二五风暴（English）》<br>
-<img src="https://s21.ax1x.com/2025/07/19/pV3jH9P.png" alt="pV3jH9P.png" border="0" width="216" height="158"><br>
-《请输入文本》<br>
-<img src="https://s21.ax1x.com/2025/07/19/pV3jTht.png" alt="pV3jTht.png" border="0" width="216" height="158"><br>
-《凝视》<br>
-<img src="https://s21.ax1x.com/2025/07/20/pV83lxx.png" alt="pV83lxx.png" border="0" width="351" height="216"><br>
-《杀青的结局》<br>
-</div>
-友情链接：<br>
-<a href="https://lrs.rth1.xyz/">小红石网站</a><br>
-<a href="https://xnsrpn.github.io/gzhydcx">依托水牛网站</a><br>
-<a href="https://srdc.rth1.xyz/">天启阁官网（废弃了）</a><br>
-<a href="https://skdc.rth1.xyz/">星联阁官网</a><br>
-<a href="https://v.douyin.com/kmmaHd5Kj_E/ I@v.SL 03/07 KWm:/ ">这里有应急粮食！(｀•ω•´)<br></a>
-<div style="
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(to top, #000055, #e6f2ff);
-"></div>
-       <div class="footer">
-关注我们<br>
-<a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys">抖音</a><br>
-<a href="
-https://space.bilibili.com/3546729628568334?spm_id_from=333.337.0.0">哔哩哔哩</a>
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
 
-    <h4>
-<p>       制作时间：2026.01.28.<br>
-<strong>
-	</strong></p></h4><h1><strong>
-<a href="index.html">
-<button class="button-east">🇨🇳简体</button></a>
-<a href="traditional">
-<button class="button-east">🇨🇳繁體</button></a>
-        <a href="english.html">
-<button class="button-tech">🇺🇸English</button></a>
-		<a href="404.html">
-<button class="button-tech">🇫🇷</button></a>
-		<a href="russian.html">
-<button class="button-tech">🇷🇺Русский</button></a>
-		<a href="404.html">
-<button class="button-tech">🇪🇸</button></a>
-		<a href="404.html">
-<button class="button-tech">🇸🇦</button></a>
-		<a href="404.html">
-<button class="button-tech">🇵🇹</button></a>
-		<a href="404.html">
-<button class="button-tech">🇩🇪</button></a>
-		<a href="404.html">
-<button class="button-tech">🇰🇵</button></a><br></strong></h1><strong>
-		</strong>
-		不好意思，部分需要整改，想看懂的外国友人只能拿翻译器过来翻译了(┬┬﹏┬┬)<br>
-<a href="https://www.douyin.com/user/MS4wLjABAAAAiAaBo8OjZ-rFABoHHdtQyVw_IqJhR5bchAIXvzKi6pODlM8RM8qkYmmoFiQstSFV">帮过我的人:小红石LRs</a><br>                                               Test Version:2.25.15.<br>											 Formal Version:2.02.5.<p></p><br>
-</div>
-<script>
-    // 页面加载后添加 class 触发动画
-    window.onload = () => document.body.classList.add('loaded');
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
 
-    const express = require('express');
-const rateLimit = require('express-rate-limit');
-const app = express();
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
 
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 25,
-  message: '今日访问次数过多，请稍后再试<br>如果此次目的是攻击该官网，请立即离开此官网！',
-});
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
 
-app.use(limiter);
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
 
-app.get('/', (req, res) => {
-  res.send('国智星历官网');
-});
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
 
-app.listen(3000);
-  </script>
-</bt>
-</div>
-</body>
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <div align="center">
+            <p>
+                <div class="dql">
+                <h1>了解更多有关我们的一些东西</h1>
+                </div><br>
+                <div class="jntm">
+                <h2>目录</h2><br>
+                <h4>1，为什么我们要建立网站？<br>
+                    2，如果有人抹黑我们会怎么做？<br>
+                    3，为什么我们要迈向国际？<br>
+                    4，集团为什么要弄三大规则？<br>
+                    5，后记</h4><br>
+                </div>
+                <div class="lm">
+                    <h2>1，为什么我们要建立网站？</h2><br>
+                    <h4>随着网络的越来越发达，我们普通人也不得不进行一些对于真正意义上的网络进行了解，特别是一些不重视网络方面的公司和集团更要对其进行了解。<br>
+                    而原因尽然来自我的其中一个朋友做的网站，因为这件事情，集团产生了嫉妒心理，狠下心来开始打造网站，才有了今天的规模</h4>
+                </div>
+                <div class="lm">
+                    <h2>2，如果有人抹黑我们会怎么做？</h2>
+                    <h4>随着网络的发展，未成年人网民数量增多，也渐渐地出现了一些满口乌烟瘴气、阴阳别人的未成年人（当然，这并不是说明成年人就可以为所欲为了）<br>
+                    虽然对于大多数人来讲，除了语言伤害，可能会间接地触发心理伤害、身体伤害等，但对于我们来说，这像毒品一样是不可以容忍的，因此，我们并不会让他们得逞下去</h4>
+                </div>
+                <div class="lm">
+                    <h2>3，为什么我们要迈向国际？</h2><br>
+                    <h4>主要原因如下:
+                        <li>1，以此宣传我们的集团，拓宽集团在海外的影响力</li><br>
+                        <li>2，宣传中国大好河山</li><br>
+                        <li>3，这也是最重要的一点：查看是否有人抹黑我们集团，并对其进行视奸<br>
+                            如果我们没有在海外的账号的话，我们在外网被黑惨了都不知道！<br>
+                            我就见过这么一个视频：有一个人发布了视频，然后有人把视频搬运到了海外，然后视频再从海外漂回到了原作者的手中，原作者知道后愤怒不已，但因为没有海外账户只能望洋叹息<br>
+                            ↑这就是为什么我们要迈向国际真正的原因<br>
+                        </li>
+                    </h4><br>
+                </div>
+                <div class="lm">
+                    <h2>4，集团为什么要弄三大规则？</h2><br>
+                    <h4>集团的三大规则的制定主要因素：<br>
+                    随着网络发展，我们更加需要在网络中寻找规矩，而脏话连篇直接驱动着集团去制定规则<br>
+                    接下来是三大规则的历史：<br>
+                    2024年1月首次发布时，仅一条规则，完全不能束缚，反而还会招来更多人的谩骂，于是我们添加了更多违禁词去规范行为<br>
+                    最初发布时，仅限于中国大陆，中国香港，中国澳门，中国台湾使用，2024年7月，开始试用于越南和马来西亚，2025年1月1日下令：<br>
+                    <h1>全世界通用！！！</h1><br>
+                    此后这些规则就一直没有改动过并固定了下来<br>
+                    </h4><br>
+                </div>
+                <div class="lm">
+                    <h2>5，后记</h2><br>
+                    <h4>我们不管什么时候都需要用户们的理解，在这里所展现的便是如此，如果还是有不懂得的地方，欢迎补充</h4><br>
+                </div>
+            </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div align="center">语言选项<br>
+            <a href="learnmorechineses.html">
+            <button class="button-east">🇨🇳简体</button></a>
+            <a href="learnmorechineset.html">
+            <button class="button-east">🇨🇳繁體</button></a>
+            <a href="learnmoreenglish.html">
+            <button class="button-tech">🇺🇸English</button></a>
+            <a href="learnmorerussian.html">
+            <button class="button-tech">🇷🇺Русский</button></a><br>
+            翻译仅供参考，如有单词或语法上的错误，请指正
+            </div><br>
+            <div align="center">
+            关注我们<br>
+        <a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys" target="_blank" width="200" height="200">
+            <button class="button-douyin"><i class="fab fa-tiktok"></i></button></a>抖音
+        <a href="https://space.bilibili.com/3546729628568334?spm_id_from=333.337.0.0" target="_blank" width="200" height="200">
+            <button class="button-bilibili"><i class="fab fa-bilibili"></i></button></a>哔哩哔哩
+        <a href="https://www.youtube.com/@CISHL一HeCat" target="_blank" width="200" height="200">
+            <button class="button-youtube"><i class="fab fa-youtube"></i></button></a>YouTube
+        <a href="https://www.tiktok.com/cishlyihecat" target="_blank" width="200" height="200">
+            <button class="button-tiktok"><i class="fab fa-tiktok"></i></button></a>TikTok
+        <a href="https://www.facebook.com/profile.php?id=61574929376699" target="_blank" width="200" height="200">
+            <button class="button-facebook"><i class="fab fa-facebook"></i></button></a>FaceBook
+        <a href="https://www.x.com/CISHL2025" target="_blank" width="200" height="200">
+            <button class="button-x"><i class="fab fa-x"></i></button></a>X(Twitter)<br>
+            <br>
+            制作时间：2026年2月27日<br>
+        </div><br>
+        </div>
+        </div>
+    </body>
 </html>
-
-
-
