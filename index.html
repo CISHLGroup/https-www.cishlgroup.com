@@ -1,48 +1,205 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html>
     <head>
-        <title>了解更多</title>
+        <title>欢迎来到国智星历官网！( •̀ ω •́ )</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <style>
-            .dql {
-                opacity: 0;
-                animation: fadeIn 0.8s ease 1 forwards;
-                animation-delay: 0.2s;
-                }
+            a:link {
+                color: #ffffff;
+            }
+            a:visited {
+                color: #00007a;
+            }
+            a:hover {
+                color: #ffffff;
+            }
+            .body{
+                font-family: 'Microsoft YaHei', sans-serif;
+                background: linear-gradient(to top,#00008f, #0000ff, #ffffff) !important;
+            }
+            a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
 
-            @keyframes fadeIn{
-            0%{
-            opacity: 0;
-            }
-            100%{
-            opacity: 1;
-            }
-            }
+            nav {
+  background: linear-gradient(to right, #0000ff, #ffffff);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
-            .div {
-                width: auto;
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.logo-text {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: nothing;
+    color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.media-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon{
+    width: 1080px;
+    height: 720px;
+    animation: slideUp 1.0s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                background:linear-gradient(to top, #0000ff, #ffffff);
+                color: #ffffff;
+                width: 100%;
+                height: 920px;
+                border-radius: 25px;
+            }
+            .div2{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
                 height: auto;
+                border-radius: 25px;
             }
-
-            .lm{
-                background: linear-gradient(to top, #cccccc, #f1f1f1);
-                color: #00000f;
-                border-radius: 5px;
+            .div3{
+                background: #0000ff;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 255, 0.5);
+                transform: translateY(-2px);
             }
-
-            .footer {
+            .div4{
+                background: #000000;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+                transform: translateY(-2px);
+            }
+            .div5{
+                background: #8888f8;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(135, 135, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div6{
+                background: linear-gradient(to right, #00007a, #aaaaff);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div7{
+                background: linear-gradient(to top, #916a00, #be5500);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div8{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div9{
                 background: #000088;
                 color: #ffffff;
                 width: 100%;
                 height: auto;
-                }
-
-            .jntm {
-                background: linear-gradient(to top, #0000ff, #7777ff);
+            }
+            .div10{
+                background: #000088;
                 color: #ffffff;
+                width: 100%;
+                height: auto;
             }
 
-    .button-tech{
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-tech{
 	background: linear-gradient(to top, #000000, #000080);
 	border: none;
 	border-radius: 8px;
@@ -77,7 +234,43 @@
 	transform: translaetY(-2px);
 }
 
-    .button-douyin{
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
   background: #000000;
   border: none;
   border-radius: 8px;
@@ -184,72 +377,481 @@
   box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
   transform: translateY(-2px);
 }
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+.nav-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.media-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon{
+    width: 108px;
+    height: 72px;
+    animation: slideUp 1s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                width: 100%;
+                height: auto;
+            }
+            .div2{
+                width: 100%;
+                height: auto;
+            }
+            .div3{
+                width: auto;
+                height: auto;
+            }
+            .div4{
+                width: auto;
+                height: auto;
+            }
+            .div5{
+                width: auto;
+                height: auto;
+            }
+            .div6{
+                width: 100%;
+                height: auto;
+            }
+            .div7{
+                width: 100%;
+                height: auto;
+            }
+            .div8{
+                width: 100%;
+                height: auto;
+            }
+            .div9{
+                width: 100%;
+                height: auto;
+            }
+            .div10{
+                width: 100%;
+                height: auto;
+
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-main{
+                background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 255, 0.75);
+  transition: all 0.3s;
+}
+
+.button-main:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+}
+
         </style>
     </head>
     <body>
-        <div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://s41.ax1x.com/2026/02/27/pZzl1tf.png" width="108" height="72" class="logo">
+                    <div class="logo-text">国智星历集团</div>
+                </div>
+                <ul>
+                    <li><a href="/home/">首页</a></li>
+                    <li><a href="/news/">新闻</a></li>
+                    <li><a href="rules_Chinese.html">规则</a></li>
+                    <li><a href="/cyber paintings/">赛博画廊（已关闭）</a></li>
+                    <li><a href="/contact/">联系我们</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="parent1">
+            <div class="div1">
+                <div class="media-box">
+                    <div class="icon"><img src="https://s41.ax1x.com/2026/02/24/pZvDxVU.png" width="1080" height="720"></div>
+                    <div class="text">
+                        <div align="center">
+                    <h1>国智星历官方网站</h1><br>
+                    <h1>目前最大的一次网站升级</h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="div2">
             <div align="center">
-            <p>
-                <div class="dql">
-                <h1>了解更多有关我们的一些东西</h1>
-                </div><br>
-                <div class="jntm">
-                <h2>目录</h2><br>
-                <h4>1，为什么我们要建立网站？<br>
-                    2，如果有人抹黑我们会怎么做？<br>
-                    3，为什么我们要迈向国际？<br>
-                    4，集团为什么要弄三大规则？<br>
-                    5，后记</h4><br>
+                <p>
+                    <h1>集团简介</h1><br>
+                    <h2>国智星历集团，全名为广西壮族自治区国智星历绘制系列集团，2022年8月22日建立该集团，该集团所包容的圈子数量较多，所以该集团的内容比较复杂，主要分为以下五个系列：<br>
+                        <h3>
+                    Countryballs系列<br>
+                    Intelligence Assistant(AI)系列<br>
+                    Star系列<br>
+                    历史系列<br>
+                    其他系列<br>
+                    </h3>
+                    <h2>其实还要另外一种说法是有三个系列，分别是：</h2><br>
+                    <h3>
+                    绘画系列<br>
+                    国际系列<br>
+                    编程系列<br>
+                    </h3>
+                    <h2><p>但是很多人还是认可于前者的五个系列</p></h2>
+                    <h1>集团信息</h1>
+                    <h2>集团名字：国智星历集团<br>
+                    建立时间：2022年8月22日<br>
+                    地址：广西南宁<br>
+                    主要人物：一HeCat，山·雅克里达，佰玖等人物<br>
+                    我们不能透露太多信息，因为很多信息都是很敏感的<br></h2>
+                    <h2>
+                        <p>误区：<br>
+                        1.国智星历集团是一个集团，不是组织<br>
+                        2.国智星历集团不是一个国家<br>
+                        3.国智星历集团目前所有账号都不是官号，请谨慎辨别真假集团！<br>
+                        4.集团里的人物一HeCat的名字很容易误解为HeCat，那个“一”是汉字里“一二三四五”的“一”而不是破折号或减号，所以请大家不要遗漏了这个“一”字！(┬┬﹏┬┬)<br>
+                        </p>
+                    </h2>
+                </p>
+        </div><br>
+        <div class="parent">
+        <div class="div3">
+            <a href="cbs.html">
+            <div align="center">
+            <h1>Countryballs</h1><br>
+            <img src="https://s41.ax1x.com/2026/02/25/pZxlsJS.md.png" width="300" height="300"><br>
+            <h3>此圈子非常开放且较为自由（。  °）<br>
+                但是如果已经涉及违规内容的还是要从严处理，因为这跟历史一样，什么时候严肃就是要时候严肃</h3>
                 </div>
-                <div class="lm">
-                    <h2>1，为什么我们要建立网站？</h2><br>
-                    <h4>随着网络的越来越发达，我们普通人也不得不进行一些对于真正意义上的网络进行了解，特别是一些不重视网络方面的公司和集团更要对其进行了解。<br>
-                    而原因尽然来自我的其中一个朋友做的网站，因为这件事情，集团产生了嫉妒心理，狠下心来开始打造网站，才有了今天的规模</h4>
-                </div>
-                <div class="lm">
-                    <h2>2，如果有人抹黑我们会怎么做？</h2>
-                    <h4>随着网络的发展，未成年人网民数量增多，也渐渐地出现了一些满口乌烟瘴气、阴阳别人的未成年人（当然，这并不是说明成年人就可以为所欲为了）<br>
-                    虽然对于大多数人来讲，除了语言伤害，可能会间接地触发心理伤害、身体伤害等，但对于我们来说，这像毒品一样是不可以容忍的，因此，我们并不会让他们得逞下去</h4>
-                </div>
-                <div class="lm">
-                    <h2>3，为什么我们要迈向国际？</h2><br>
-                    <h4>主要原因如下:
-                        <li>1，以此宣传我们的集团，拓宽集团在海外的影响力</li><br>
-                        <li>2，宣传中国大好河山</li><br>
-                        <li>3，这也是最重要的一点：查看是否有人抹黑我们集团，并对其进行视奸<br>
-                            如果我们没有在海外的账号的话，我们在外网被黑惨了都不知道！<br>
-                            我就见过这么一个视频：有一个人发布了视频，然后有人把视频搬运到了海外，然后视频再从海外漂回到了原作者的手中，原作者知道后愤怒不已，但因为没有海外账户只能望洋叹息<br>
-                            ↑这就是为什么我们要迈向国际真正的原因<br>
-                        </li>
-                    </h4><br>
-                </div>
-                <div class="lm">
-                    <h2>4，集团为什么要弄三大规则？</h2><br>
-                    <h4>集团的三大规则的制定主要因素：<br>
-                    随着网络发展，我们更加需要在网络中寻找规矩，而脏话连篇直接驱动着集团去制定规则<br>
-                    接下来是三大规则的历史：<br>
-                    2024年1月首次发布时，仅一条规则，完全不能束缚，反而还会招来更多人的谩骂，于是我们添加了更多违禁词去规范行为<br>
-                    最初发布时，仅限于中国大陆，中国香港，中国澳门，中国台湾使用，2024年7月，开始试用于越南和马来西亚，2025年1月1日下令：<br>
-                    <h1>全世界通用！！！</h1><br>
-                    此后这些规则就一直没有改动过并固定了下来<br>
-                    </h4><br>
-                </div>
-                <div class="lm">
-                    <h2>5，后记</h2><br>
-                    <h4>我们不管什么时候都需要用户们的理解，在这里所展现的便是如此，如果还是有不懂得的地方，欢迎补充</h4><br>
-                </div>
-            </p>
+            </a>
+            </div>
+        <div class="div4">
+            <a href="sp.html">
+            <div align="center">
+            <h1>Star</h1><br>
+        <img src="https://s41.ax1x.com/2026/01/10/pZ0164U.md.png" width="420" height="300">
+        </div>
+        <div align="left">
+            <div align="center">
+        <h3>星球圈子如星球阁（SRPN），星联阁等阁均在这里发布消息<br>
+        如有内容冒犯某个阁，请联系集团删除该冒犯内容<br>
+        </h3>
             </div>
         </div>
-        <div class="footer">
+        </a>
+        </div>
+        <div class="div5">
+            <a href="qita.html">
+            <div align="center">
+            <h1>其他</h1><br>
+            <img src="https://s41.ax1x.com/2026/01/10/pZ01oE6.md.png" width="340" height="295"><br>
+        <h3>其他系列比如AI，历史等在这里均有<br>
+        这里聚集的圈子比较多，所以该标签里边的部分内容会很乱<br>
+        某些圈子的规则相比于集团规则来讲可能会复杂得很多<br>
+        所以当你看到某些内容冒犯到某个圈子时，请联系集团删除该内容，跟Star系列的操作差不多
+        </h3>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div><br>
+        <div class="div6">
+            <p>
+                <div align="center">
+                <h1>人工智能栏目</h1>
+                <h4>目前，AI发展迅猛，特别是近期中美两国之间的AI发展更加迅速，一个比一个还好<br>
+                    但是，在我们集团成立并设计LOGO时就已经考虑到AI在未来几年内的重要性，那个时候是2022年8月，距离ChatGPT火出圈还有三四个月，就已经考虑到AI的重要性<br>
+                    不仅如此，我们在当初设计LOGO时，就在LOGO上的“i”进行了小写处理<br>
+                    随着AI逐渐走进千家万户，我们集团也开始着手打造集团AI，2025年10月，我们成功地弄出了集团AI<br>
+                    AI的重要性在今天来讲不言而喻，几年后的AI，再加上与机器人的协同合并，能使其作用发挥到最大值<br></h4>
+                <h2>
+                    <p>如果你对此有兴趣：</p><br>
+                    <button class="ai">尝试使用集团智能体</button><br>
+                    </div>
+                </h2>
+            </p>
+        </div><br>
+        <div class="div7">
+            <p>
+                <div align="center">
+                <h1>历史栏目</h1>
+                <h4>声明：<br>
+                    历史是一个很严肃的一个话题，我们集团除了明确声明纯属虚构外，其他所展现的均有历史依据，但如果我们所描写的历史内容冒犯到某个国家或某个民族，请联系集团删除该内容，集团会第一时间删除该内容，并且我们会在第一时间向被冒犯的国家或民族道歉！如果我们所描写的历史内容是未经核实的，或者说此历史内容是目前无法验证其真假等因素的，亦或者说我们没有添加免责声明时，也请联系站主删除该违规内容或添加免责声明<br>
+                    当然，如果所写的历史内容特指集团的历史路程时，基本按照该集团所描写的历史内容来写就行了，毕竟这是集团的历史路程，其他人也无法核实其真假，所以我们不要求添加免责声明<br></h4>
+                    <h2>如果你对历史感兴趣的话，欢迎加入我们的历史圈子！</h2><br>
+                    <h2>正式内容在此：</h2><br>
+                    <h4>
+                    注意这里讲的比较多的是近代史，不仅是因为站主喜欢，而且还是因为近代史相比于古代来讲更加详细<br>
+                    </h4>
+                    <h3>
+                    目前暂无更多内容，如有请添加<br>
+                    </h3>
+                    <button class="button-history">集团历史</button>
+                    </div>
+            </p>
+        </div><br>
+        <div class="div8">
+            <p>
+                <div align="center">
+                <h1>赛博画廊</h1>
+                <h4>赛博画廊是一个展示在网络上进行画作的一个栏目，欢迎各界绘画的朋友参观我们的赛博画廊！<br>
+                其实你们还可以把你们画的画给弄上去，给别人欣赏！o((>ω<))o<br></h4>
+                但是目前赛博画廊已经关闭了，因为我们觉得赛博画廊的内容比较杂乱，所以我们就把赛博画廊的内容放在了其他系列里边了，虽然这样会比较乱，但我们觉得这样也不错了，毕竟我们也不想把赛博画廊的内容放在Star系列里边了，因为Star系列已经有很多内容了，如果再放上赛博画廊的内容的话就会更乱了，所以我们就把赛博画廊的内容放在了其他系列里边了（bishi）<br>
+                </div>
+            </p>
+        </div><br>
+        <div class="div9">
             <div align="center">语言选项<br>
-            <a href="learnmorechineses.html">
+            <a href="index.html">
             <button class="button-east">🇨🇳简体</button></a>
-            <a href="learnmorechineset.html">
+            <a href="traditional.html">
             <button class="button-east">🇨🇳繁體</button></a>
-            <a href="learnmoreenglish.html">
+            <a href="english.html">
             <button class="button-tech">🇺🇸English</button></a>
-            <a href="learnmorerussian.html">
+            <a href="russian.html">
             <button class="button-tech">🇷🇺Русский</button></a><br>
             翻译仅供参考，如有单词或语法上的错误，请指正
             </div><br>
@@ -269,8 +871,30 @@
             <button class="button-x"><i class="fab fa-x"></i></button></a>X(Twitter)<br>
             <br>
             制作时间：2026年2月27日<br>
+            Text Version: 3.0.0<br>
+            Formal Version:3.0.0.<br>
         </div><br>
         </div>
         </div>
+        <script>
+    const express = require('express');
+const rateLimit = require('express-rate-limit');
+const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 25,
+  message: '今日访问次数过多，请稍后再试<br>如果此次目的是攻击该官网，请立即离开此官网！',
+});
+
+app.use(limiter);
+
+app.get('/', (req, res) => {
+  res.send('国智星历官网');
+});
+
+app.listen(3000);
+  </script>
     </body>
-</html>
+    </html>
+
