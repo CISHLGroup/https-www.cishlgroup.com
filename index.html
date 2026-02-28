@@ -416,11 +416,12 @@ nav ul li a {
     display: flex;
     gap: 10px;
     align-items: center;
+	flex-direction: column !important
 }
 
 .icon{
-    width: 108px;
-    height: 72px;
+    width: 216px;
+    height: 144px;
     animation: slideUp 1s ease 1 ;
   }
 
@@ -428,6 +429,10 @@ nav ul li a {
     opacity: 0;
     animation: fadeIn 0.8s ease 1 forwards;
     animation-delay: 2s;
+}
+
+.text h1{
+font-size: 1.2rem;
 }
 
 @keyframes slideUp {
@@ -910,6 +915,7 @@ app.listen(3000);
   </script>
     </body>
     </html>
+
 
 
 
