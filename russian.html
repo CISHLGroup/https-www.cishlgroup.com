@@ -1,0 +1,919 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Добро пожаловать на официальный сайт ГИЗИП! ( •̀ ω •́ )</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a:link {
+                color: #ffffff;
+            }
+            a:visited {
+                color: #00007a;
+            }
+            a:hover {
+                color: #ffffff;
+            }
+            .body{
+                font-family: 'Microsoft YaHei', sans-serif;
+                background: linear-gradient(to top,#00008f, #0000ff, #ffffff) !important;
+            }
+            a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+            nav {
+  background: linear-gradient(to right, #0000ff, #ffffff);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.logo-text {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: nothing;
+    color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.media-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon{
+    width: 1080px;
+    height: 720px;
+    animation: slideUp 1.0s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                background:linear-gradient(to top, #0000ff, #ffffff);
+                color: #ffffff;
+                width: 100%;
+                height: 920px;
+                border-radius: 25px;
+            }
+            .div2{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div3{
+                background: #0000ff;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div4{
+                background: #000000;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+                transform: translateY(-2px);
+            }
+            .div5{
+                background: #8888f8;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(135, 135, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div6{
+                background: linear-gradient(to right, #00007a, #aaaaff);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div7{
+                background: linear-gradient(to top, #916a00, #be5500);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div8{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div9{
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+            .div10{
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-tech{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.nav-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  width: 54px;
+  height: 36px;
+  font-size: 4px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.media-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+	flex-direction: column !important
+}
+
+.icon{
+    width: 324px;
+    height: 216px;
+    animation: slideUp 1s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+.text h1{
+font-size: 1.2rem;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div2{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div3, .div4, .div5{
+                width: 100%;
+                height: auto;
+				margin-bottom: 20px;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div6{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div7{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div8{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div9{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div10{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+				flex-direction: column;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-main{
+                background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 255, 0.75);
+  transition: all 0.3s;
+}
+
+.button-main:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+	img{
+		max-width: 100%;
+		height: auto;
+}
+}
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://s41.ax1x.com/2026/02/27/pZzl1tf.png" width="138" height="92" class="logo">
+                    <div class="logo-text">Группа ГИЗИП</div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gunmu.html">Новости</a></li>
+                    <li><a href="rules_ChineseS.html">Правила</a></li>
+                    <li><a href="gunmu.html">Киберпространственная галерея (закрыта)</a></li>
+                    <li><a href="gunmu.html">Свяжитесь с нами</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="parent1">
+            <div class="div1">
+                <div class="media-box">
+                    <div class="icon"><img src="https://s41.ax1x.com/2026/02/24/pZvDxVU.png" width="1080" height="720"></div>
+                    <div class="text">
+                        <div align="center">
+                    <h1>Официальный сайт ГИЗИП</h1><br>
+                    <h1>Крупнейшее обновление веб-сайта на данный момент</h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="div2">
+            <div align="center">
+                <p>
+                    <h1>О компании</h1><br>
+                    <h2>Группа ГИЗИП, полное название Которого - полное наименование компании, была основана 22 августа 2022 года. Компания охватывает множество кругов, поэтому содержание компании довольно сложно, главным образом разделено на пять серий:<br>
+                    <h3>
+                    Серия Countryballs<br>
+                    Серия Ассистента интеллекта (АИ)<br>
+                    Серия Star<br>
+                    Серия истории<br>
+                    Прочие серии<br>
+                    <h2>На самом деле есть еще один способ сказать, что есть три серии, а именно:</h2><br>
+                    <h3>
+                    Серия рисования<br>
+                    Международная серия<br>
+                    Серия кодирования<br>
+                    <h2><p>Однако многие люди по-прежнему признают пять серий, сравненные с предыдущими</p></h2>
+                    <h1>Информация о компании</h1>
+                    <h2>Название компании: группа ГИЗИП<br>
+                    Время основания: 22 августа 2022 года<br>
+                    Адрес: Наннин, Гуанси<br>
+                    Ключевые люди: одна HeCat, Шань Якрида, Байцзю и другие<br>
+                    Мы не можем раскрыть больше информации, потому что большая часть информации очень чувствительна<br></h2>
+                    <h2>
+                        <p>Неправильные представления:<br>
+                        1. Группа ГИЗИП - это компания, а не организация<br>
+                        2. Группа ГИЗИП - не страна<br>
+                        3. Все текущие аккаунты группы ГИЗИП не являются официальными аккаунтами, пожалуйста, будьте осторожны при различении подлинности!<br>
+                        4. Имя одна HeCat легко можно неправильно интерпретировать как HeCat, символ \"一\" - это китайские символы \"1, 2, 3, 4, 5\", а не тире или минус, поэтому не утратите этот символ! (┬┬﹏┬┬)<br>
+                        </p>
+                    </h2>
+                </p>
+        </div><br>
+        <div class="parent">
+        <div class="div3">
+            <a href="cbs.html">
+            <div align="center">
+            <h1>Countryballs</h1><br>
+            <img src="https://s41.ax1x.com/2026/02/25/pZxlsJS.md.png" width="300" height="300"><br>
+            <h3>Этот круг очень открыт и относительно свободн (。  °)<br>
+                Однако, если уже есть контент, нарушающий правила, его все равно нужно обрабатывать строго, потому что это как история, когда бывает серьезно, всегда бывает серьезно</h3>
+                </div>
+            </a>
+            </div>
+        <div class="div4">
+            <a href="sp.html">
+            <div align="center">
+            <h1>Star</h1><br>
+        <img src="https://s41.ax1x.com/2026/01/10/pZ0164U.md.png" width="420" height="300">
+        </div>
+        <div align="left">
+            <div align="center">
+        <h3>Круги планет, такие как старбалл ала (ГИЗИП), стар радиант и др., восфроизводят сообщения здесь<br>
+        Если какое-либо содержание оскорбляет гильдию, пожалуйста, свяжитесь с компанией для удаления оскорбительного содержания<br>
+        </h3>
+            </div>
+        </div>
+        </a>
+        </div>
+        <div class="div5">
+            <a href="qita.html">
+            <div align="center">
+            <h1>Прочие</h1><br>
+            <img src="https://s41.ax1x.com/2026/01/10/pZ01oE6.md.png" width="340" height="295"><br>
+        <h3>Прочие серии, такие как AI, история и т.д., здесь есть все<br>
+        Здесь собрано много кругов, поэтому часть содержания этого ярлыка будет довольно беспорядочной<br>
+        Правила некоторых кругов могут быть значительно сложнее по сравнению с правилами компании<br>
+        Поэтому, когда вы видите содержание, оскорбляющее круг, пожалуйста, свяжитесь с компанией для удаления содержания. Операция аналогична ряду Star
+        </h3>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div><br>
+        <div class="div6">
+            <p>
+                <div align="center">
+                <h1>Раздел искусственного интеллекта</h1>
+                <h4>В настоящее время развитие ИИ идёт быстро, особенно в последнее время развитие ИИ между Китаем и США ускоряется ещё быстрее. Каждый лучше другого.<br>
+                    Однако, когда мы основали компанию ГИЗИП и разработали логотип, мы уже рассмотрели важность ИИ в ближайшие несколько лет. Это было в августе 2022 года, за три-четыре месяца до того, как ChatGPT стал популярным. Мы уже рассмотрели важность ИИ.<br>
+                    Более того, при разработке логотипа мы использовали строчную букву "i" в логотипе.<br>
+                    С тем, как ИИ постепенно входит в тысячи семей, наша компания ГИЗИП также начала разработку ИИ компании. В октябре 2025 года мы успешно создали ИИ компании.<br>
+                    Важность ИИ в наши дни очевидна. Через несколько лет ИИ, плюс синергетическое слияние с роботами, может максимально использовать его эффект.<br></h4>
+                <h2>
+                    <p>Если вы заинтересованы в этом:</p><br>
+                    <button class="ai"><a href="gunmu.html">Попробуйте использовать группового интеллектуального агента</a></button><br>
+                    </div>
+                </h2>
+            </p>
+        </div><br>
+        <div class="div7">
+            <p>
+                <div align="center">
+                <h1>Раздел истории</h1>
+                <h4>Заявление:<br>
+                    История - это очень серьёзная тема. Наша компания, кроме явного заявления о чистой выдумке, все остальные проявляет имеют историческую основу. Однако, если историческое содержание, которое мы описываем, оскорбляет определённую страну или нацию, пожалуйста, свяжитесь с компанией для удаления содержания. Компания удалит содержание в первый раз. И мы немедленно принесём извинения оскорблённой стране или нации! Если историческое содержание, которое мы описываем, не проверено или это историческое содержание в настоящее время невозможно проверить на предмет его подлинности и других факторов, или если мы не добавили отказ от ответственности, пожалуйста, также свяжитесь с администратором веб-сайта для удаления нарушающего содержания или добавления отказа от ответственности<br>
+                    Конечно, если историческое содержание, которое вы пишете, конкретно относится к историческому пути компании, в основном просто напишите в соответствии с историческим содержанием, описанным компанией. В конце концов, это исторический путь компании, и никто другой не может проверить его подлинность. Поэтому мы не требуем добавления отказа от ответственности<br></h4>
+                    <h2>Если вас интересует история, добро пожаловать присоединиться к нашему историческому кругу!</h2><br>
+                    <h2>Официальное содержание находится здесь:</h2><br>
+                    <h4>
+                    Обратите внимание, что здесь говорят в основном о современной истории. Не только потому, что администратор сайта это любит, но и потому, что современная история более подробна по сравнению с древней историей<br>
+                    </h4>
+                    <h3>
+                    В настоящее время дополнительного содержания нет, пожалуйста, добавляйте при наличии<br>
+                    </h3>
+                    <button class="button-history"><a href="gunmu.html">История компании</a></button>
+                    </div>
+            </p>
+        </div><br>
+        <div class="div8">
+            <p>
+                <div align="center">
+                <h1>Киберпространственная галерея</h1>
+                <h4>Киберпространственная галерея - это раздел для демонстрации художественных работ в Интернете. Добро пожаловать художникам со всех сторон посетить нашу киберпространственную галерею!<br>
+                Вы также можете загрузить свои рисунки и дать другим насладиться! o((>ω<))o<br></h4>
+                Однако в настоящее время киберпространственная галерея закрыта, потому что мы считаем, что содержание киберпространственной галереи довольно беспорядочное. Мы переместили содержание киберпространственной галереи в другие серии. Хотя это немного беспорядочно, мы думаем, что это хорошо. В конце концов, мы не хотим размещать содержание киберпространственной галереи в серии Star, потому что в серии Star уже много содержания. Если мы добавим содержание киберпространственной галереи, это будет еще более беспорядочным. Поэтому мы переместили содержание киберпространственной галереи в другие серии (bishi)<br>
+                </div>
+            </p>
+        </div><br>
+        <div class="div9">
+            <div align="center">Языковые параметры<br>
+            <a href="index.html">
+            <button class="button-east">🇨🇳Упрощённый</button></a>
+            <a href="traditional.html">
+            <button class="button-east">🇨🇳Традиционный</button></a>
+            <a href="english.html">
+            <button class="button-tech">🇺🇸English</button></a>
+            <a href="russian.html">
+            <button class="button-tech">🇷🇺Русский</button></a><br>
+            Перевод предназначен только для справки. Если есть ошибки в словах или грамматике, пожалуйста, исправьте
+            </div><br>
+            <div align="center">
+            Следите за нами<br>
+        <a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys" target="_blank" width="200" height="200">
+            <button class="button-douyin"><i class="fab fa-tiktok"></i></button></a>Douyin
+        <a href="https://space.bilibili.com/3546729628568334?spm_id_from=333.337.0.0" target="_blank" width="200" height="200">
+            <button class="button-bilibili"><i class="fab fa-bilibili"></i></button></a>Bilibili
+        <a href="https://www.youtube.com/@CISHL一HeCat" target="_blank" width="200" height="200">
+            <button class="button-youtube"><i class="fab fa-youtube"></i></button></a>YouTube
+        <a href="https://www.tiktok.com/cishlyihecat" target="_blank" width="200" height="200">
+            <button class="button-tiktok"><i class="fab fa-tiktok"></i></button></a>TikTok
+        <a href="https://www.facebook.com/profile.php?id=61574929376699" target="_blank" width="200" height="200">
+            <button class="button-facebook"><i class="fab fa-facebook"></i></button></a>Facebook
+        <a href="https://www.x.com/CISHL2025" target="_blank" width="200" height="200">
+            <button class="button-x"><i class="fab fa-x"></i></button></a>X(Twitter)<br>
+            <br>
+            Время создания: 27 февраля 2026 года<br>
+            Text Version: 3.0.0<br>
+            Formal Version: 3.0.0.<br>
+        </div><br>
+        </div>
+        </div>
+        <script>
+    const express = require('express');
+const rateLimit = require('express-rate-limit');
+const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 25,
+  message: 'Слишком много посещений сегодня, пожалуйста, повторите попытку позже<br>Если целью этого визита является атака на этот официальный веб-сайт, пожалуйста, немедленно покиньте его!',
+});
+
+app.use(limiter);
+
+app.get('/', (req, res) => {
+  res.send('Официальный сайт ГИЗИП');
+});
+
+app.listen(3000);
+  </script>
+    </body>
+    </html>
