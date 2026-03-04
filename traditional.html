@@ -1,0 +1,921 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>歡迎來到國智星歷的官網！( •̀ ω •́ )</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a:link {
+                color: #ffffff;
+            }
+            a:visited {
+                color: #00007a;
+            }
+            a:hover {
+                color: #ffffff;
+            }
+            .body{
+                font-family: 'Microsoft YaHei', sans-serif;
+                background: linear-gradient(to top,#00008f, #0000ff, #ffffff) !important;
+            }
+            a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+            nav {
+  background: linear-gradient(to right, #0000ff, #ffffff);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.logo-text {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: nothing;
+    color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.media-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon{
+    width: 1080px;
+    height: 720px;
+    animation: slideUp 1.0s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                background:linear-gradient(to top, #0000ff, #ffffff);
+                color: #ffffff;
+                width: 100%;
+                height: 920px;
+                border-radius: 25px;
+            }
+            .div2{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div3{
+                background: #0000ff;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div4{
+                background: #000000;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+                transform: translateY(-2px);
+            }
+            .div5{
+                background: #8888f8;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(135, 135, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div6{
+                background: linear-gradient(to right, #00007a, #aaaaff);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div7{
+                background: linear-gradient(to top, #916a00, #be5500);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div8{
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div9{
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+            .div10{
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-tech{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.nav-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  width: 54px;
+  height: 36px;
+  font-size: 4px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.media-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+	flex-direction: column !important
+}
+
+.icon{
+    width: 324px;
+    height: 216px;
+    animation: slideUp 1s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+.text h1{
+font-size: 1.2rem;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div2{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div3, .div4, .div5{
+                width: 100%;
+                height: auto;
+				margin-bottom: 20px;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div6{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div7{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div8{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div9{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div10{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+				flex-direction: column;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-main{
+                background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 255, 0.75);
+  transition: all 0.3s;
+}
+
+.button-main:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+	img{
+		max-width: 100%;
+		height: auto;
+}
+}
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://s41.ax1x.com/2026/02/27/pZzl1tf.png" width="138" height="92" class="logo">
+                    <div class="logo-text">國智星歷集團</div>
+                </div>
+                <ul>
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="gunmu.html">新聞</a></li>
+                    <li><a href="rules_ChineseT.html">規則</a></li>
+                    <li><a href="gunmu.html">賽博畫廊（已關閉）</a></li>
+                    <li><a href="gunmu.html">聯繫我們</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="parent1">
+            <div class="div1">
+                <div class="media-box">
+                    <div class="icon"><img src="https://s41.ax1x.com/2026/02/24/pZvDxVU.png" width="1080" height="720"></div>
+                    <div class="text">
+                        <div align="center">
+                    <h1>國智星歷官方網站</h1><br>
+                    <h1>目前最大的一次網站升級</h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="div2">
+            <div align="center">
+                <p>
+                    <h1>集團簡介</h1><br>
+                    <h2>國智星歷集團，全名為廣西壯族自治區國智星歷繪製系列集團，2022年8月22日建立該集團，該集團所包容的圈子數量較多，所以該集團的內容比較複雜，主要分為以下五個系列：<br>
+                        <h3>
+                    Countryballs系列<br>
+                    Intelligence Assistant(AI)系列<br>
+                    Star系列<br>
+                    歷史系列<br>
+                    其他系列<br>
+                    </h3>
+                    <h2>其實還要另外一種說法是有三個系列，分別是：</h2><br>
+                    <h3>
+                    繪畫系列<br>
+                    國際系列<br>
+                    編程系列<br>
+                    </h3>
+                    <h2><p>但是很多人還是認可於前者的五個系列</p></h2>
+                    <h1>集團資訊</h1>
+                    <h2>集團名字：國智星歷集團<br>
+                    建立時間：2022年8月22日<br>
+                    地址：廣西南寧<br>
+                    主要人物：一HeCat，山·雅克里達，佰玖等人物<br>
+                    我們不能透露太多資訊，因為很多資訊都是很敏感的<br></h2>
+                    <h2>
+                        <p>誤區：<br>
+                        1.國智星歷集團是一個集團，不是組織<br>
+                        2.國智星歷集團不是一個國家<br>
+                        3.國智星歷集團目前所有帳號都不是官號，請謹慎辨別真假集團！<br>
+                        4.集團裡的人物一HeCat的名字很容易誤解為HeCat，那個“一”是漢字裡“一二三四五”的“一”而不是破折號或減號，所以請大家不要遺漏了這個“一”字！(┬┬﹏┬┬)<br>
+                        </p>
+                    </h2>
+                </p>
+        </div><br>
+        <div class="parent">
+        <div class="div3">
+            <a href="cbs.html">
+            <div align="center">
+            <h1>Countryballs</h1><br>
+            <img src="https://s41.ax1x.com/2026/02/25/pZxlsJS.md.png" width="300" height="300"><br>
+            <h3>此圈子非常開放且較為自由（。  °）<br>
+                但是如果已經涉及違規內容的還是要從嚴處理，因為這跟歷史一樣，什麼時候嚴肅就是要時候嚴肅</h3>
+                </div>
+            </a>
+            </div>
+        <div class="div4">
+            <a href="sp.html">
+            <div align="center">
+            <h1>Star</h1><br>
+        <img src="https://s41.ax1x.com/2026/01/10/pZ0164U.md.png" width="420" height="300">
+        </div>
+        <div align="left">
+            <div align="center">
+        <h3>星球圈子如星球閣（SRPN），星聯閣等閣均在這裡發布消息<br>
+        如有內容冒犯某個閣，請聯繫集團刪除該冒犯內容<br>
+        </h3>
+            </div>
+        </div>
+        </a>
+        </div>
+        <div class="div5">
+            <a href="qita.html">
+            <div align="center">
+            <h1>其他</h1><br>
+            <img src="https://s41.ax1x.com/2026/01/10/pZ01oE6.md.png" width="340" height="295"><br>
+        <h3>其他系列比如AI，歷史等在這裡均有<br>
+        這裡聚集的圈子比較多，所以該標籤裡邊的部分內容會很亂<br>
+        某些圈子的規則相比於集團規則來講可能會複雜得很多<br>
+        所以當你看到某些內容冒犯到某個圈子時，請聯繫集團刪除該內容，跟Star系列的操作差不多
+        </h3>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div><br>
+        <div class="div6">
+            <p>
+                <div align="center">
+                <h1>人工智能欄目</h1>
+                <h4>目前，AI發展迅猛，特別是近期中美兩國之間的AI發展更加迅速，一個比一個還好<br>
+                    但是，在我們集團成立並設計LOGO時就已經考慮到AI在未來幾年內的重要性，那個時候是2022年8月，距離ChatGPT火出圈還有三四個月，就已經考慮到AI的重要性<br>
+                    不僅如此，我們在當初設計LOGO時，就在LOGO上的“i”進行了小寫處理<br>
+                    隨著AI逐漸走進千家萬戶，我們集團也開始著手打造集團AI，2025年10月，我們成功地弄出了集團AI<br>
+                    AI的重要性在今天來講不言而喻，幾年後的AI，再加上與機器人的協同合併，能使其作用發揮到最大值<br></h4>
+                <h2>
+                    <p>如果你對此有興趣：</p><br>
+                    <button class="ai"><a href="gunmu.html">嘗試使用集團智能體</a></button><br>
+                    </div>
+                </h2>
+            </p>
+        </div><br>
+        <div class="div7">
+            <p>
+                <div align="center">
+                <h1>歷史欄目</h1>
+                <h4>聲明：<br>
+                    歷史是一個很嚴肅的一個話題，我們集團除了明確聲明純屬虛構外，其他所展現的均有歷史依據，但如果我們所描寫的歷史內容冒犯到某個國家或某個民族，請聯繫集團刪除該內容，集團會第一時間刪除該內容，並且我們會在第一時間向被冒犯的國家或民族道歉！如果我們所描寫的歷史內容是未經核實的，或者說此歷史內容是目前無法驗證其真假等因素的，亦或者說我們沒有添加免責聲明時，也請聯繫站主刪除該違規內容或添加免責聲明<br>
+                    當然，如果所寫的歷史內容特指集團的歷史路程時，基本按照該集團所描寫的歷史內容來寫就行了，畢竟這是集團的歷史路程，其他人也無法核實其真假，所以我們不要求添加免責聲明<br></h4>
+                    <h2>如果你對歷史感興趣的話，歡迎加入我們的歷史圈子！</h2><br>
+                    <h2>正式內容在此：</h2><br>
+                    <h4>
+                    注意這裡講的比較多的是近代史，不僅是因為站主喜歡，而且還是因為近代史相比於古代來講更加詳細<br>
+                    </h4>
+                    <h3>
+                    目前暫無更多內容，如有請添加<br>
+                    </h3>
+                    <button class="button-history"><a href="gunmu.html">集團歷史</a></button>
+                    </div>
+            </p>
+        </div><br>
+        <div class="div8">
+            <p>
+                <div align="center">
+                <h1>賽博畫廊</h1>
+                <h4>賽博畫廊是一個展示在網絡上進行畫作的一個欄目，歡迎各界繪畫的朋友參觀我們的賽博畫廊！<br>
+                其實你們還可以把你們畫的畫給弄上去，給別人欣賞！o((>ω<))o<br></h4>
+                但是目前賽博畫廊已經關閉了，因為我們覺得賽博畫廊的內容比較雜亂，所以我們就把賽博畫廊的內容放在了其他系列裡邊了，雖然這樣會比較亂，但我們覺得這樣也不錯了，畢竟我們也不想把賽博畫廊的內容放在Star系列裡邊了，因為Star系列已經有很多內容了，如果再放上賽博畫廊的內容的話就會更亂了，所以我們就把賽博畫廊的內容放在了其他系列裡邊了（bishi）<br>
+                </div>
+            </p>
+        </div><br>
+        <div class="div9">
+            <div align="center">語言選項<br>
+            <a href="index.html">
+            <button class="button-east">🇨🇳簡體</button></a>
+            <a href="traditional.html">
+            <button class="button-east">🇨🇳繁體</button></a>
+            <a href="english.html">
+            <button class="button-tech">🇺🇸English</button></a>
+            <a href="russian.html">
+            <button class="button-tech">🇷🇺Русский</button></a><br>
+            翻譯僅供參考，如有單詞或語法上的錯誤，請指正
+            </div><br>
+            <div align="center">
+            關注我們<br>
+        <a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys" target="_blank" width="200" height="200">
+            <button class="button-douyin"><i class="fab fa-tiktok"></i></button></a>抖音
+        <a href="https://space.bilibili.com/3546729628568334?spm_id_from=333.337.0.0" target="_blank" width="200" height="200">
+            <button class="button-bilibili"><i class="fab fa-bilibili"></i></button></a>嗶哩嗶哩
+        <a href="https://www.youtube.com/@CISHL一HeCat" target="_blank" width="200" height="200">
+            <button class="button-youtube"><i class="fab fa-youtube"></i></button></a>YouTube
+        <a href="https://www.tiktok.com/cishlyihecat" target="_blank" width="200" height="200">
+            <button class="button-tiktok"><i class="fab fa-tiktok"></i></button></a>TikTok
+        <a href="https://www.facebook.com/profile.php?id=61574929376699" target="_blank" width="200" height="200">
+            <button class="button-facebook"><i class="fab fa-facebook"></i></button></a>FaceBook
+        <a href="https://www.x.com/CISHL2025" target="_blank" width="200" height="200">
+            <button class="button-x"><i class="fab fa-x"></i></button></a>X(Twitter)<br>
+            <br>
+            製作時間：2026年2月27日<br>
+            Text Version: 3.0.0<br>
+            Formal Version:3.0.0.<br>
+        </div><br>
+        </div>
+        </div>
+        <script>
+    const express = require('express');
+const rateLimit = require('express-rate-limit');
+const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 25,
+  message: '今日访问次数过多，请稍后再试<br>如果此次目的是攻击该官网，请立即离开此官网！',
+});
+
+app.use(limiter);
+
+app.get('/', (req, res) => {
+  res.send('國智星歷官網');
+});
+
+app.listen(3000);
+  </script>
+    </body>
+    </html>
