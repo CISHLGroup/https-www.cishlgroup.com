@@ -1,0 +1,943 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Welcome to CISHL Official Website! ( •̄ ω •́ )</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/caviar-dreams" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caviar+Dreams:wght@400;700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a:link {
+                color: #ffffff;
+            }
+            a:visited {
+                color: #ffffff;
+            }
+            a:hover {
+                color: #ffffff;
+            }
+            a:active {
+              color: #ffffff
+            }
+            .body{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: linear-gradient(to top,#00008f, #0000ff, #ffffff) !important;
+            }
+            a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+            nav {
+  background: linear-gradient(to right, #0000ff, #ffffff);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.logo-text {
+    font-family: 'Caviar Dreams', sans-serif;
+    background: nothing;
+    color: white;
+}
+
+nav ul {
+  font-family: 'Caviar Dreams', sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.media-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon{
+    width: 1080px;
+    height: 720px;
+    animation: slideUp 1.0s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                font-family: 'Caviar Dreams', sans-serif;
+                background:linear-gradient(to top, #0000ff, #ffffff);
+                color: #ffffff;
+                width: 100%;
+                height: 920px;
+                border-radius: 25px;
+            }
+            .div2{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div3{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #0000ff;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div4{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #000000;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+                transform: translateY(-2px);
+            }
+            .div5{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #8888f8;
+                color: #ffffff;
+                width: 600px;
+                height: 920px;
+                border-radius: 25px;
+                box-shadow: 0 6px 20px rgba(135, 135, 255, 0.5);
+                transform: translateY(-2px);
+            }
+            .div6{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: linear-gradient(to right, #00007a, #aaaaff);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div7{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: linear-gradient(to top, #916a00, #be5500);
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div8{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #0000ff;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .div9{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+            .div10{
+                font-family: 'Caviar Dreams', sans-serif;
+                background: #000088;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background:#ffffff;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-tech{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    font-family: 'Caviar Dreams', sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    font-family: 'Caviar Dreams', sans-serif;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  font-family: 'Caviar Dreams', sans-serif;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  font-family: 'Caviar Dreams', sans-serif;
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.nav-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.logo {
+  width: 54px;
+  height: 36px;
+  font-size: 4px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.media-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+	flex-direction: column !important
+}
+
+.icon{
+    width: 324px;
+    height: 216px;
+    animation: slideUp 1s ease 1 ;
+  }
+
+.text{
+    opacity: 0;
+    animation: fadeIn 0.8s ease 1 forwards;
+    animation-delay: 2s;
+}
+
+.text h1{
+font-size: 1.2rem;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(822px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+            .div1{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div2{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div3, .div4, .div5{
+                width: 100%;
+                height: auto;
+				margin-bottom: 20px;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div6{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div7{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div8{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div9{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+            .div10{
+                width: 100%;
+                height: auto;
+				word-wrap: break-word;
+                overflow: hidden;
+            }
+
+            .parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+				flex-direction: column;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 6px;
+            }
+
+            .button-main{
+                background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 255, 0.75);
+  transition: all 0.3s;
+}
+
+.button-main:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tech:hover{
+	background: linear-gradient(135deg, #0061ff 20%, #00a2ff 80%);
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.button-east{
+	background: linear-gradient(to top, #000000, #000080);
+	border: none;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+	transition: all 0.3s;
+}
+
+.button-east:hover{
+	background: linear-gradient(to top,#ff0000,#ff3333);
+	color: #ffff00;
+	box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+	transform: translaetY(-2px);
+}
+
+.ai{
+    background: linear-gradient(to right, #00007a, #0000ff);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+    transition: all 0.3s;
+}
+
+.ai:hover{
+    background: linear-gradient(to right, #0000ff, #00007a);
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.button-history{
+  background: #a83500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(168,53,0, 0.3);
+  transition: all 0.3s;
+}
+
+.button-history:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #a83500;
+  box-shadow: 0 6px 20px rgba(168,53,0, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-douyin{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-douyin:hover{
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-bilibili{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0085ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-bilibili:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #ff69cd;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-youtube{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ff0000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-youtube:hover{
+  background: linear-gradient(to top, #ff0000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-tiktok{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-tiktok:hover{
+  background: linear-gradient(to top, #000000);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-facebook{
+  background: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #0000ff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-facebook:hover{
+  background: linear-gradient(to top, #0000ff);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.button-x{
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0 ,150, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.button-x:hover{
+  background: linear-gradient(to top, #ffffff);
+  color: #000000;
+  box-shadow: 0 6px 20px rgba(0,150, 255, 0.5);
+  transform: translateY(-2px);
+}
+	img{
+		max-width: 100%;
+		height: auto;
+}
+}
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://s41.ax1x.com/2026/02/27/pZzl1tf.png" width="138" height="92" class="logo">
+                    <div class="logo-text">CISHL Group</div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gunmu.html">News</a></li>
+                    <li><a href="rules_English.html">Rules</a></li>
+                    <li><a href="gunmu.html">Cyber Gallery (Closed)</a></li>
+                    <li><a href="gunmu.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="parent1">
+            <div class="div1">
+                <div class="media-box">
+                    <div class="icon"><img src="https://s41.ax1x.com/2026/02/24/pZvDxVU.png" width="1080" height="720"></div>
+                    <div class="text">
+                        <div align="center">
+                    <h1>CISHL Official Website</h1><br>
+                    <h1>The Largest Website Upgrade So Far</h1>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="div2">
+            <div align="center">
+                <p>
+                    <h1>Group Introduction</h1><br>
+                    <h2>CISHL, full name Guangxi Zhuang Autonomous Region CISHL Drawing Series Group, established on August 22, 2022, this group contains many circles, so the group content is relatively complex, mainly divided into the following five series:<br>
+                        <h3>
+                    Countryballs Series<br>
+                    Intelligence Assistant (AI) Series<br>
+                    Star Series<br>
+                    History Series<br>
+                    Other Series<br>
+                    </h3>
+                    <h2>Actually, there is another saying that there are three series, respectively:</h2><br>
+                    <h3>
+                    Painting Series<br>
+                    International Series<br>
+                    Programming Series<br>
+                    </h3>
+                    <h2><p>But many people still recognize the former five series</p></h2>
+                    <h1>Group Information</h1>
+                    <h2>Group Name: CISHL<br>
+                    Established Date: August 22, 2022<br>
+                    Location: Guangxi Nanning<br>
+                    Key Members: YiHeCat, Xio Yakorida, Bai Jiu and others<br>
+                    We cannot disclose much information because much of it is sensitive<br></h2>
+                    <h2>
+                        <p>Common Misconceptions:<br>
+                        1. CISHL is a group, not an organization<br>
+                        2. CISHL is not a country<br>
+                        3. All current CISHL accounts are not official accounts, please carefully distinguish between real and fake groups!<br>
+                        4. The name of YiHeCat in the group is easily misunderstood as HeCat, that "Yi" is the character "1" in Chinese "1234567" not a dash or minus sign, so please don't omit this "Yi" character! (┬┬﹏┬┬)<br>
+                        </p>
+                    </h2>
+                </p>
+        </div><br>
+        <div class="parent">
+        <div class="div3">
+            <a href="cbs.html">
+            <div align="center">
+            <h1>Countryballs</h1><br>
+            <img src="https://s41.ax1x.com/2026/02/25/pZxlsJS.md.png" width="300" height="300"><br>
+            <h3>This circle is very open and relatively free (. °)<br>
+                However, if content violates regulations, it will still be handled strictly, because it's like history, whenever it needs to be serious it needs to be serious</h3>
+                </div>
+            </a>
+            </div>
+        <div class="div4">
+            <a href="sp.html">
+            <div align="center">
+            <h1>Star</h1><br>
+        <img src="https://s41.ax1x.com/2026/01/10/pZ0164U.md.png" width="420" height="300">
+        </div>
+        <div align="left">
+            <div align="center">
+        <h3>Circle of planets such as SRPN (Star Pavilion), SKDC and other pavilions all post news here<br>
+        If any content offends any pavilion, please contact CISHL to delete the offensive content<br>
+        </h3>
+            </div>
+        </div>
+        </a>
+        </div>
+        <div class="div5">
+            <a href="qita.html">
+            <div align="center">
+            <h1>Others</h1><br>
+            <img src="https://s41.ax1x.com/2026/01/10/pZ01oE6.md.png" width="340" height="295"><br>
+        <h3>Other series such as AI, History, etc. are all here<br>
+        There are many circles gathered here, so some content in this section will be messy<br>
+        Some circle rules compared to CISHL rules may be much more complex<br>
+        So when you see some content that offends a circle, please contact CISHL to delete the content, similar to the Star series operation
+        </h3>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div><br>
+        <div class="div6">
+            <p>
+                <div align="center">
+                <h1>Artificial Intelligence Section</h1>
+                <h4>Currently, AI is developing rapidly, especially the AI development between China and the US in recent times is accelerating, one better than the other<br>
+                    However, when we established our group and designed the LOGO, we already considered the importance of AI in the next few years, at that time it was August 2022, three to four months away from ChatGPT becoming a sensation, we already considered the importance of AI<br>
+                    Not only that, when we first designed the LOGO, we made the "i" on the LOGO lowercase<br>
+                    As AI gradually enters thousands of households, our group has also begun to work on building CISHL AI, in October 2025, we successfully developed CISHL AI<br>
+                    The importance of AI today speaks for itself, AI in a few years, combined with synergistic collaboration with robots, can maximize its effectiveness<br></h4>
+                <h2>
+                    <p>If you are interested in this:</p><br>
+                    <button class="ai"><a href="gunmu.html">Try CISHL Intelligence Assistant</a></button><br>
+                    </div>
+                </h2>
+            </p>
+        </div><br>
+        <div class="div7">
+            <p>
+                <div align="center">
+                <h1>History Section</h1>
+                <h4>Disclaimer:<br>
+                    History is a very serious topic, our group except for explicitly stating that it is purely fictional, all other displays have historical basis, but if our written historical content offends any country or ethnic group, please contact CISHL to delete the content, CISHL will delete the content at the first time, and we will apologize to the offended country or ethnic group at the first time! If our written historical content is unverified, or this historical content cannot verify its authenticity due to current factors, or if we have not added a disclaimer, please also contact the webmaster to delete the violation or add a disclaimer<br>
+                    Of course, if the written historical content specifically refers to CISHL's history, basically write according to the historical content described by CISHL, after all this is CISHL's history, others cannot verify its authenticity, so we do not require adding a disclaimer<br></h4>
+                    <h2>If you are interested in history, welcome to join our history circle!</h2><br>
+                    <h2>Official content is here:</h2><br>
+                    <h4>
+                    Note that what is discussed here is mostly modern history, not only because the webmaster likes it, but also because modern history is more detailed compared to ancient history<br>
+                    </h4>
+                    <h3>
+                    Currently no more content, please add if available<br>
+                    </h3>
+                    <button class="button-history"><a href="gunmu.html">CISHL History</a></button>
+                    </div>
+            </p>
+        </div><br>
+        <div class="div8">
+            <p>
+                <div align="center">
+                <h1>Cyber Gallery</h1>
+                <h4>The Cyber Gallery is a section that displays artworks carried out on the Internet, welcome friends from all walks of painting to visit our Cyber Gallery!<br>
+                In fact, you can also put your paintings on display and let others appreciate them! o((>ω<))o<br></h4>
+                However, the Cyber Gallery has been closed, because we feel that the content of the Cyber Gallery is relatively messy, so we put the content of the Cyber Gallery into the other series, although this would be more messy, but we think this is not bad, after all we also do not want to put the content of the Cyber Gallery into the Star series, because the Star series already has a lot of content, if we add the content of the Cyber Gallery it will be even more messy, so we put the content of the Cyber Gallery into the other series (bishi)<br>
+                </div>
+            </p>
+        </div><br>
+        <div class="div9">
+            <div align="center">Language Options<br>
+            <a href="index.html">
+            <button class="button-east">🇨🇳Simplified Chinese</button></a>
+            <a href="traditional.html">
+            <button class="button-east">🇨🇳Traditional Chinese</button></a>
+            <a href="english.html">
+            <button class="button-tech">🇺🇸English</button></a>
+            <a href="russian.html">
+            <button class="button-tech">🇷🇺Русский</button></a><br>
+            Translations are for reference only, if there are any errors in words or grammar, please correct
+            </div><br>
+            <div align="center">
+            Follow Us<br>
+        <a href="https://m.douyin.com/share/user/MS4wLjABAAAAk9DhmjfuTDbmTP0QlI6R_mPPr4SReMVIPVtCBK-pRys" target="_blank" width="200" height="200">
+            <button class="button-douyin"><i class="fab fa-tiktok"></i></button></a>Douyin
+        <a href="https://space.bilibili.com/3546729628568334?spm_id_from=333.337.0.0" target="_blank" width="200" height="200">
+            <button class="button-bilibili"><i class="fab fa-bilibili"></i></button></a>Bilibili
+        <a href="https://www.youtube.com/@CISHLYiHeCat" target="_blank" width="200" height="200">
+            <button class="button-youtube"><i class="fab fa-youtube"></i></button></a>YouTube
+        <a href="https://www.tiktok.com/cishlyihecat" target="_blank" width="200" height="200">
+            <button class="button-tiktok"><i class="fab fa-tiktok"></i></button></a>TikTok
+        <a href="https://www.facebook.com/profile.php?id=61574929376699" target="_blank" width="200" height="200">
+            <button class="button-facebook"><i class="fab fa-facebook"></i></button></a>FaceBook
+        <a href="https://www.x.com/CISHL2025" target="_blank" width="200" height="200">
+            <button class="button-x"><i class="fab fa-x"></i></button></a>X(Twitter)<br>
+            <br>
+            Production Date: February 27, 2026<br>
+            Text Version: 3.0.0<br>
+            Formal Version:3.0.0.<br>
+        </div><br>
+        </div>
+        </div>
+        <script>
+    const express = require('express');
+const rateLimit = require('express-rate-limit');
+const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 25,
+  message: '今日访问次数过多，请稍后再试<br>如果此次目的是攻击该官网，请立即离开此官网！',
+});
+
+app.use(limiter);
+
+app.get('/', (req, res) => {
+  res.send('CISHL Official Website');
+});
+
+app.listen(3000);
+  </script>
+    </body>
+    </html>
