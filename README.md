@@ -7,7 +7,7 @@ If you don't understand Chinese(Simplified) or Chinese(Traditional):
 # https://cishlgroup.github.io/cishlgroup/engilsh.html
 English Version
 
-# http://cishlgroup.github.io/cishlgroup/russia.html
+# https://cishlgroup.github.io/cishlgroup/russia.html
 Russian Version
 
 More languages will coming!～(￣▽￣～)~
